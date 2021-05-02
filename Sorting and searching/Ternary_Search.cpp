@@ -1,3 +1,22 @@
+/*
+Ternary Search :It is a Divide and Conquer Algorithm used to perform search operation in a sorted array. This algorithm is similar to the Binary Search algorithm but rather than dividing the array into two parts, it divides the array into three equal parts.
+
+In this algorithm, the given array is divided into three parts and the key (element to be searched) is compared to find the part in which it lies and that part is further divided into three parts.
+
+We can divide the array into three parts by taking mid1 and mid2 which can be calculated as shown below. Initially, l and r will be equal to 0 and N-1 respectively, where N is the length of the array.
+mid1 = l + (r-l)/3
+mid2 = r – (r-l)/3
+=========================================================================================================================================================================================================
+Algorithm:
+1.First, we compare the key with the element at mid1. If found equal, we return mid1.
+2.If not, then we compare the key with the element at mid2. If found equal, we return mid2.
+3.If not, then we check whether the key is less than the element at mid1. If yes, then recur to the first part.
+4.If not, then we check whether the key is greater than the element at mid2. If yes, then recur to the third part.
+5.If not, then we recur to the second (middle) part.
+
+*/
+
+
 #include<bits/stdc++.h>
 using namespace std;
 /*Recursive function
