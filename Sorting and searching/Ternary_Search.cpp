@@ -13,7 +13,7 @@ Algorithm:
 3.If not, then we check whether the key is less than the element at mid1. If yes, then recur to the first part.
 4.If not, then we check whether the key is greater than the element at mid2. If yes, then recur to the third part.
 5.If not, then we recur to the second (middle) part.
-
+Time Complexity: O(Log3N), where N is the number of elements in the array.
 */
 
 
