@@ -1,4 +1,4 @@
-# This is the program of Binary Search 
+# Binary Search 
 
 * Binary Search is a searching algorithm for searching an element in a sorted list or array. Binary Search is efficient than Linear Search algorithm and performs the search
 operation in logarithmic time complexity for sorted arrays or lists.
