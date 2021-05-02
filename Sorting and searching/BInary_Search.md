@@ -3,6 +3,7 @@
 * Step - 1 ) We have to store the element in a key 
 
 
+![](https://www.geeksforgeeks.org/wp-content/uploads/Binary-Search.png)
 
 ```c++
 #include<bits/stdc++.h>
@@ -63,6 +64,6 @@ int main()
     else cout<<"Element was not found............!!!!";
 }
 ```
-![](https://www.geeksforgeeks.org/wp-content/uploads/Binary-Search.png)
+
 
 ## This is end
