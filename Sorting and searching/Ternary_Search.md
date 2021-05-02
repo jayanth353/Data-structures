@@ -8,17 +8,18 @@ mid1 = l + (r-l)/3
 mid2 = r – (r-l)/3
 =
 * Algorithm:
-1.First, we compare the key with the element at mid1. If found equal, we return mid1.
-2.If not, then we compare the key with the element at mid2. If found equal, we return mid2.
-3.If not, then we check whether the key is less than the element at mid1. If yes, then recur to the first part.
-4.If not, then we check whether the key is greater than the element at mid2. If yes, then recur to the third part.
-5.If not, then we recur to the second (middle) part.
+* 1.First, we compare the key with the element at mid1. If found equal, we return mid1.
+* 2.If not, then we compare the key with the element at mid2. If found equal, we return mid2.
+* 3.If not, then we check whether the key is less than the element at mid1. If yes, then recur to the first part.
+* 4.If not, then we check whether the key is greater than the element at mid2. If yes, then recur to the third part.
+* 5.If not, then we recur to the second (middle) part.
 * Time Complexity: O(Log3N), where N is the number of elements in the array.
 
 
 ![](https://media.geeksforgeeks.org/wp-content/uploads/ternaryS-3.png)
 
 
+```c++
 #include<bits/stdc++.h>
 using namespace std;
 /*Recursive function
@@ -90,3 +91,4 @@ int main()
     if(r==1) cout<<"\n Element was found ";
     else cout<<"Element was not found";
 }
+```
