@@ -1,5 +1,7 @@
 # Bubble sort
-
+#### Bubble Sort is also an in-place sorting algorithm. This is the simplest sorting algorithm and it works on the principle that:
+In one iteration if we swap all adjacent elements of an array such that after swap the first element is less than the second element then at the end of the iteration, 
+the first element of the array will be the minimum element.
 * For every pass the the large number is sorted at last as a bubble float at the top
 * ->1)First Pass: ( 5 1 4 2 8 ) --> ( 1 5 4 2 8 ), Here, algorithm compares the first two elements, and swaps since 5 > 1.
 * ( 1 5 4 2 8 ) -->  ( 1 4 5 2 8 ), Swap since 5 > 4
