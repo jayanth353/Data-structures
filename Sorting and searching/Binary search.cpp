@@ -33,7 +33,7 @@ int main()
 {
     int n,key;
     char ch;
-    vector<int> v;
+    vector<int> v; // int v[10]
     cout<<"Enter size:";
     cin>>n;
     cout<<"\nEnter elements:";
@@ -43,7 +43,7 @@ int main()
         cin>>z;
         v.push_back(z);
      }
-    cout<<"\nEnter y if elements are sorted else type n";
+    cout<<"\nAre elements sorted...? y/n";
     cin>>ch;
     if(ch=='n')
     {
@@ -52,6 +52,6 @@ int main()
     cout<<"Enter search element:";
     cin>>key;
     int r=Bsearch(n,v,key);
-    if(r) cout<<"\n Element was found ";
-    else cout<<"Element was not found";
+    if(r) cout<<"\n Element was found.......! ";
+    else cout<<"Element was not found............!!!!";
 }
