@@ -63,6 +63,6 @@ int main()
     else cout<<"Element was not found............!!!!";
 }
 ```
-[](https://www.geeksforgeeks.org/wp-content/uploads/Binary-Search.png)
+![](https://www.geeksforgeeks.org/wp-content/uploads/Binary-Search.png)
 
 ## This is end
