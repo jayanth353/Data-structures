@@ -22,6 +22,9 @@ the first element of the array will be the minimum element.
 ![](https://prepinsta.com/wp-content/uploads/2020/06/Bubble-Sort-In-C-Final.webp)
 
 
+![](https://res.cloudinary.com/practicaldev/image/fetch/s--C0CI1OCj--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/ubhywp9xh8zk6on4caql.gif)
+
+
 ```c++
 #include<bits/stdc++.h>
 using namespace std;
