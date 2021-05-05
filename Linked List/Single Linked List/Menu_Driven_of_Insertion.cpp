@@ -83,8 +83,8 @@ void display()
 int main()
 {
    
-    
-    printf("\n Keep inserting nmbers,If u want to stop inserting press 0:");
+    cout<<"Insert values into list";
+    cout<<"\n!!!If u finish press -1!!!";
     int val=1,op;    
 
     while(val)
