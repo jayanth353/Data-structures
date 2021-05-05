@@ -74,7 +74,8 @@ void delEnd()
 int main()
 {
     int val=1;
-    cout<<"Insert values into list,if u finish press -1";
+   cout<<"Insert values into list";
+   cout<<"\n!!!If u finish press -1!!!";
     while(val)
     {
         cout<<"\nEnter num to insert:";
