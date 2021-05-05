@@ -1,4 +1,3 @@
-
 #include<bits/stdc++.h>
 using namespace std;
 struct node { 
@@ -87,11 +86,11 @@ int main()
     cout<<"\n!!!If u finish press -1!!!";
     int val=1,op;    
 
-    while(val)
+    while(val!=-1)
     {
         printf("\n Enter value to insert:");
         scanf("%d",&val);
-        if(val==0) break;
+        if(val==-1) break;
         else{
             addNode(val);
              }
@@ -118,8 +117,10 @@ int main()
 				   break;
             
             case 2:int mid,key;
-                   cout<<"\nEnter num in which u want to insert after and num u want to be inserted:";
-                   cin>>mid>>key;
+                   cout<<"\nAfter which num do u want to insert:";
+                   cin>>mid;
+                   cout<<"\nEnter num that u want to insert:";
+                   cin>>key;
                    insertMiddle(mid,key);
                    display();
                    break;
@@ -135,8 +136,7 @@ int main()
 		    default :cout<<"\n Enter correct option";
 		             break;
 		}
-   }while(op!=0);
+   }while(op!=-1);
     
   return 0;
 }
-    
