@@ -45,28 +45,45 @@ void newnode(int d)
 }
 void revdisplay()
 {
-    struct node*print=tail;
+    if(head==NULL)
+    {
+        cout<<"\nList is empty.....!";
+    }
+    else {
+        struct node*print=tail;
     
     while(print!=NULL)
     {
         cout<<print->data<<"->";
-        print=print->left;
+        print=print->prev;
         
     }
     cout<<"NULL";
+        
+    }
 }
 void display()
 {
+    if(head==NULL)
+    {
+        cout<<"\nList is Empty....!!";
+        
+    }
+    else
+   { 
     struct node*print=head;
  
     while(print!=NULL)
     {
         cout<<print->data<<"->";
-        print=print->right;
+        print=print->next;
         
     }
     cout<<"NULL";
+       
+   }
 }
+
 int main()
 {
     cout<<"!!!...keep inserting values ,if you wish to stop inserting press -1";
