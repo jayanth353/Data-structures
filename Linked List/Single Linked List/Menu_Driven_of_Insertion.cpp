@@ -136,7 +136,7 @@ int main()
 		    default :cout<<"\n Enter correct option";
 		             break;
 		}
-   }while(op!=-1);
+   }while(op!=0);
     
   return 0;
 }
